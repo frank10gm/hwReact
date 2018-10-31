@@ -1,0 +1,57 @@
+/* MAIN */
+main{
+  margin-top: 56px;
+}
+.main-logo{
+  max-width: 200px;
+  width: 100%;
+  margin: 0;
+}
+
+#console{
+  position: fixed;    
+  right: 0;
+  max-width: 200px;
+  width: 100%;
+  text-align: left;
+  padding: 5px 10px;
+  background-color: #343a40!important;
+  color: #fff;
+  font-size: 14px;
+  border-bottom-left-radius: 8px;
+  overflow: hidden;
+  /* max-height: 31px;     */
+  transition: all 1s ease-in-out;
+  top: -56px;
+  /* display: none; */
+}
+#console.show{
+  top:56px;
+  /* display: block; */
+}
+
+.mastfoot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;    
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  main{
+      margin-top: 70px;
+  }
+  #console.show{        
+      top:70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main{
+      margin-top: 56px;
+  }
+  #console.show{        
+      top:56px;
+  }
+}
